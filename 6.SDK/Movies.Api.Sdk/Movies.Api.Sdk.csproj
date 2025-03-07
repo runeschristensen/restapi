@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Refit" Version="8.0.0" />
+    <ProjectReference Include="..\..\5.AdvancedFeatures\Movies.Api\Movies.Api.csproj" />
   </ItemGroup>
 
 </Project>
