@@ -20,7 +20,7 @@ public class MoviesController : ControllerBase
     {
         var movie = request.MapToMovie();
         await _movieRepository.CreateAsync(movie);
-        var movieResponse = movie.MapToResponse();
+		var movieResponse = movie.MapToResponse();
         return CreatedAtAction(nameof(Get), new { id = movie.Id }, movieResponse);
     }
 
