@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+ <ItemGroup>
+    <ProjectReference Include="..\Movies.Api.Sdk\Movies.Api.Sdk.csproj" />
+  </ItemGroup>
+
+ <ItemGroup>
+   <PackageReference Include="Refit" Version="8.0.0" />
+ </ItemGroup>
 </Project>
